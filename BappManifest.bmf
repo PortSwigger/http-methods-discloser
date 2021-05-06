@@ -1,0 +1,12 @@
+Uuid: 2d84c07f3a8d4e2b97828cd0aa814b07
+ExtensionType: 1
+Name: HTTP Methods Discloser
+RepoName: methods-discloser
+ScreenVersion: 1.0
+SerialVersion: 1
+MinPlatformVersion: 0
+ProOnly: False
+Author: Ashkan Jahanbakhsh
+ShortDescription: Makes an OPTIONS request and determines if other HTTP methods than the original request are available.
+EntryPoint: target/http-methods-discloser-1.0.jar
+BuildCommand: mvn clean package
